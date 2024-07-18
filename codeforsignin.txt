@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <style>
+          body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            background:  url("v.png") no-repeat center / cover;
+          } 
+          .A{
+            width: 500px;
+            height: 600px;
+            background: red;
+            overflow: hidden;
+            background: url("v.png") no-repeat center / cover;
+            border-radius: 10px;
+            box-shadow: 5px 20px 50px black;
+
+          } 
+          #chk{
+            display: none;
+          }
+          .signin{
+            position: relative;
+            width: 100%;
+            height: 100%;
+          }
+          label{
+            color:white ;
+            font-size: 2.9em;
+            justify-content: center;
+            display: flex;
+            margin: 60px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: .5s ease-in-out;
+          }
+          input{
+            width: 80%;
+            height: 40px;
+            background: wheat;
+            justify-content: center;
+            display: flex;
+            margin: 20px auto;
+            padding: 15px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+          }
+          button{
+            width: 60%;
+            height: 40px;
+            margin: 10px auto;
+            justify-content: center;
+            display: block;
+            color: white;
+            background:#573b8a ;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 20px;
+            outline: none;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+          }
+           a{
+            background-color: red;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 30px;
+           
+
+          }
+        </style>
+        <body>
+           <div class="A" >
+            <input type="checkbox"  id="chk" aria-hidden="true">
+            <div class="signin">
+             <form>
+                <label for="chk" aria-hidden="true">Sign In</label>
+                <input type="text" name="txt" placeholder="User name" required>
+                <input type="Email" name="Email" placeholder="Email" required>
+                <input type="number" name="pasd" placeholder="password" required>
+                <button>Sign In</button>             
+             </form> 
+             <center>
+             <a href="proj3.html">Back</a> 
+             </center> 
+            </div>
+           </div>
+        </body>
+    </head>
+</html>
