@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>projct3</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.start{
+			background: url(black2.jpg)no-repeat;
+			background-size: cover;
+			height: 198vh;
+		}
+		
+		.navbar{
+			width: 100%;
+			height: 90px;
+			background: rgb(0, 0, 0.2);
+		}
+		h3{
+			text-decoration: none;
+			color: white;
+			font-size: 20px;
+		}
+		.navbar ul{
+			float: right;
+			margin-right: 20px;
+		}
+		.navbar ul li{
+			list-style: none;
+			margin: 0 8px;
+			display: inline-block;
+			line-height: 90px;
+		}
+		 #name{
+			color: white;
+			font-size: 40px;
+			margin-right:10px ;
+
+
+		}
+		.navbar ul li a{
+			text-decoration: none;
+			color: white;
+			font-size: 20px;
+			padding: 9px 16px;
+			border-radius: 25px;
+			transition: .4s;
+		}
+		.navbar ul li a.active,
+		.navbar ul li a:hover{
+			background: red;
+			border-radius: 20px;
+		}
+		
+		.A{
+			position: absolute;
+			top: 105%;
+			left:55%;
+			transform: translate(-50%,-50%);
+			font-family: sans-serif;
+			user-select: none;
+		}
+		.A h1{
+			color:rgb(27, 171, 211);
+			font-size: 25px;
+			font-weight: bold;
+			font-family:Arial, Helvetica, sans-serif;
+			width: 900px;
+			text-align: center;
+		}
+		.A h1:hover{
+			color: orangered;
+		}
+		.A video{
+			align-items: center;
+			position: relative;
+			 
+		}
+		.A h2{
+			color: rgb(203, 211, 215);
+			font-size: 60px;
+			font-weight: bold;
+			font-style: italic;
+			width: 885px;
+			margin-top: 10px;
+			text-align: center;
+		}
+		.A h2:hover{
+			color: orangered;
+		}
+		.A .B{
+			margin: 35px 480px;
+		}
+		.B button{
+			height: 50px;
+			width: 150px;
+			font-size: 18px;
+			font-weight: bold;
+			color: #ffb3b3;
+			background: red;
+			border: 1px solid #cc0000;
+			outline: none;
+			cursor: pointer;
+			border-radius: 25px;
+			transition: .5s;
+		}
+		.B .b2{
+			marigin-left:25px;
+		}
+		.B button:hover{
+			background: #cc0000;
+		}
+		.contact{
+			background: url(black.png)no-repeat;
+			background-size: cover;
+			height:100vh;
+		}
+		.contact2{
+			background: url(black.png)no-repeat;
+			background-size: cover;
+			height: 10vh;
+		}
+		.contact h2{
+			color: rgb(203, 211, 215);
+			font-size: 60px;
+			font-weight: bold;
+			font-style: italic;
+			width: 885px;
+			margin-top: 10px;
+			text-align: center;
+		}
+		.contact h2:hover{
+			color: orangered;
+		}
+		.nb ul{
+			float: right;
+			margin-right: 5px;
+		}
+		.nb ul li{
+			list-style: none;
+			margin: 0 16px;
+			display: inline-block;
+			line-height: 70px;
+		}
+		.nb ul h1{
+			color:rgb(27, 171, 211);
+			font-size: 25px;
+			font-weight: bold;
+			font-family:Arial, Helvetica, sans-serif;
+			width: 500px;
+		}
+		.nb ul h1:hover{
+			color: orangered;
+		}
+		.nb ul li a{
+			text-decoration: none;
+			color: rgb(224, 38, 85);
+			font-size: 20px;
+			padding: 6px 13px;
+			transition: .4s;
+		}
+		.nb ul li a:hover{
+			background: rgb(182, 231, 36);
+			border-radius: 10px;
+		}
+		.S{
+			background: url(black.png)no-repeat;
+			background-size: cover;
+			height: 130vh;
+		}
+        *{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container{
+			width: 100%;
+			max-height: 100vh;
+			align-items: center;
+			margin-right: 0;
+			padding: 5%;
+			background:transparent;
+			display: flex;
+			justify-content: center;
+
+		}
+		.search-bar{
+			width:100%;
+			max-width: 700px;
+			background:transparent;
+			display: flex;
+			align-items: center;
+			border: wheat solid 2px;
+			border-radius: 60px;
+			padding: 10px 20px;
+		}
+		
+        .search-bar  input{
+			color:white;
+			font-size: 20px;
+			background: transparent;
+			flex: 1;
+			border: 0;
+			outline: none;
+		    padding: 24px 20px;
+			
+		}
+		::placeholder{
+			color:white ;
+		}
+		.search-bar  button img{
+			width: 30px;
+		}
+		.search-bar  button{
+			border: 0;
+			border-radius: 50%;
+			width:60px ;
+			height: 60px;
+			background-image: #586295;
+			cursor: pointer;
+		}
+    </style>
+</head>
+<body >
+	<div class="start" >
+
+	<nav class="navbar">
+		<img src="WARKA LOGO.png" width="200px" height="90px"  >
+		<ul>
+			
+			<li><a class="active" href="#">Home</a></li>
+			<li><a href="signin.html">Sign In</a></li>
+		</ul>
+	</nav>
+	
+</div>
+<div class="A">
+	<center>
+	<video width="585" controls   autoplay loop muted >
+		<source src="Welcome Video - Bokeh.mp4" type="video/mp4">
+	</video>
+    </center>
+	<h2>Unlimited videos,Sports,TV showes,and more.... </h2>
+	<center>
+	<img src="anm.png">
+	<h1>Watch anywhere!</h1>
+    </center>
+	<div class="B">
+		<button onclick="alert('Sign up first')">Join Us</button>
+	</div>
+</div>
+<div class="contact">
+<hr>
+<center>
+	<video width="800" controls  loop muted >
+		<source src="Funniest Moments in Football.mp4" type="video/mp4">
+	</video>
+	<h2>Watch funny momentes in football,and more.... </h2>
+</center>
+</div>
+<div class="S">
+	
+	<div class="container">
+		<form action="https://www.google.com/search" method="get" class="search-bar">
+			<input type="text" name="q" placeholder=" Search..here what you want!" >
+			<button type="submit"><img src="search.png" ></button>
+		</form>
+	</div>
+	<center>
+		<video width="800" controls  loop muted >
+			<source src="p1video (1).mp4" type="video/mp4">
+		</video>
+	</center>
+	
+	</div>
+</div>
+<div class="contact2">
+<hr>
+<nav class="nb">
+	<ul>
+		<li><h1>our pages</h1></li>
+		<li><a href="https://t.me/+4864DbfXsONhMDQ0">Telegram</a></li>
+		<li><a href="https://youtube.com/@warkatube10?si=wWK-yvVBkyfWfb4r">YouTube</a></li>
+		<li><a href="https://www.instagram.com">Instagram</a></li>
+		<li><a href="https://www.facebook.com">FaceBook</a></li>
+	</ul>
+</nav>
+</div>
